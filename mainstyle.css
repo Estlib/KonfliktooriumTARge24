@@ -25,8 +25,25 @@ h1 {
 
 }
 .catPick{
-height:85 ;width:120 ;
+height:85px ;width:120px ;
 }
 .Mario&KevinTable{
 border: 1px solid;
+}
+
+.kuivadheinad {
+    body {
+        background-color: burlywood;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a {
+        color: black;
+    }
+    
+    h1 {
+        background-color: black;
+        color: aqua;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
