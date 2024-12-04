@@ -33,7 +33,13 @@ height:85px ;width:120px ;
 .MarioJaKevinTable{
 border: 1px solid;
 }
-.miisud{
+
+.miisud {
     font-family:fantasy;
+    border: 2px solid;
+}
+
+.miisud img {
+    max-width: 300px;
 }
 
