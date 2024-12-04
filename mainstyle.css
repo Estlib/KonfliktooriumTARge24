@@ -35,12 +35,14 @@ border: 1px solid;
 }
 
 .miisud {
+    table, th, td {
     font-family:fantasy;
-    border: 2px solid;
-}
-
-.miisud img {
-    max-width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: darkolivegreen;
+    color:rgb(177, 197, 177)
+    
+    }   
 }
 
 .annemariJaKerrtu_table{
