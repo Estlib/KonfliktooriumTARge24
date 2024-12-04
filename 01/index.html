@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../mainstyle.css">
     <link rel="stylesheet" href="RihoGervin.css">
     <title>Ülesanne 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Meeskonna tutvustus</h1><br/>
@@ -19,10 +20,10 @@
 
         Selle jaoks uuri siit: <a href="https://www.w3schools.com/cssref/sel_class.php">w3schools class selector</a><br/>
         Kasuta järgnevat HMTL tabeli näidet, et teha oma meeskonna tabelike:
-        <table>
-            <thead>
-                <tr colspan="3">
-                    <td>MEESKONNA NIMI</td>
+        <table class="teamtable">
+            <thead class="teamtableFill">
+                <tr>
+                    <td style="text-align: center;"colspan="3">MEESKONNA NIMI</td>
                 </tr>
             </thead>
             <tbody>
@@ -82,34 +83,32 @@
     <table>
         <thead>
             <tr colspan="3">
-                <td >MEESKONNA NIMI</td>
+                <td >MACI V6llid</td>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Meeskonnaliikmed:</td>
-                <td>A</td>
-                <td>B</td>
+                <td>Robert Tarlap</td>
+                <td>Mark Kuusik</td>
             </tr>
             <tr>
                 <td>Saidid:</td>
-                <td>A</td>
-                <td>B</td>
+                <td><a href="https://github.com/ROBERTTest1/ainemapp">Roberti repo</a></td>
+                <td><a href="https://github.com/markwiz/KuusikTARge24">Marki Repo</a></td>
             </tr>
             <tr>
                 <td>Lõputööde ideed:</td>
-                <td>A</td>
-                <td>B</td>
+                <td><a href="https://www.etera.ee/zoom/200028/view?page=1&p=separate&search=robert%20tarlap&tool=search">Roberti lõputöö</a></td>
+                <td>Ai, mis uurib segmenti ette antavate teemade kohta. </td>
             </tr>
-            <tr colspan="3">PILTSIIA(ei pea sisaldama üldse meeskonnaliikmeid, palun mitte shrek)</tr>
+            <tr colspan="3"><img src= "/pildid/hes.jpeg" alt="Lemmar koht" width="640" height="300"</tr>
         </tbody>
     </table>
     </p>
 
         
         <table class="kuivadheinad">
-
-        <table id="kuivadheinad">
             <thead>
                 <tr colspan="3">
                     <td >Meeskond Kuivad Heinad</td>
@@ -141,7 +140,7 @@
     <table>
         <thead>
             <tr colspan="3">
-                <td >MEESKONNA NIMI: OK</td>
+                <td >OK</td>
             </tr>
         </thead>
         <tbody>
@@ -152,12 +151,12 @@
             </tr>
             <tr>
                 <td>Saidid:</td>
-                <td>A</td>
+                <td><a href="https://github.com/corvert/TaapTARge24">Orvet GitHub</a></td>
                 <td><a href="https://github.com/Ketter8/Ketter8-public/tree/master">Ketter Github</a></td>
             </tr>
             <tr>
                 <td>Lõputööde ideed:</td>
-                <td>A</td>
+                <td>Portfelli tracker</td>
                 <td>B</td>
             </tr>
             <tr colspan="3">
@@ -168,7 +167,7 @@
     </p>
 
     <p>
-    <table>
+    <table class="annemariJaKerrtu_table">
         <thead>
             <tr colspan="3">
 
@@ -176,7 +175,7 @@
                 <td>AK-47</td>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="annemariJaKerrtu_tbody">
             <tr>
                 <td>Meeskonnaliikmed:</td>
                 <td>Anne-Mari</td>
