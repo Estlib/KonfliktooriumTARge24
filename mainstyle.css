@@ -15,8 +15,14 @@ h1 {
     border: solid 10px white !important;
 
 }
-.teamtable thead th
+.teamtableFill
 {
     background-color: rgb(0, 179, 255);
     color: white;
+}
+.teamtablecolor2 {    
+    color: rgb(195, 255, 0);
+}
+.teamtablecolor3 {    
+    color: rgb(255,0,170);
 }
