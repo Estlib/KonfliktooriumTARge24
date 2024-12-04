@@ -21,29 +21,16 @@ h1 {
     color: white;
 }
 
-.Mario&KevinContainer{
+.MarioJaKevinContainer{
 
 }
 .catPick{
 height:85px ;width:120px ;
 }
-.Mario&KevinTable{
+.MarioJaKevinTable{
 border: 1px solid;
 }
-
-.kuivadheinad {
-    body {
-        background-color: burlywood;
-        color: black;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    a {
-        color: black;
-    }
-    
-    h1 {
-        background-color: black;
-        color: aqua;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+.miisud{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
