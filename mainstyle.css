@@ -15,15 +15,18 @@ h1 {
     border: solid 10px white !important;
 
 }
-.teamtable thead th
+.teamtableFill
 {
     background-color: rgb(0, 179, 255);
     color: white;
 }
-
-.MarioJaKevinContainer{
-
+.teamtablecolor2 {    
+    color: rgb(195, 255, 0);
 }
+.teamtablecolor3 {    
+    color: rgb(255,0,170);
+}
+
 .catPick{
 height:85px ;width:120px ;
 }
@@ -31,7 +34,7 @@ height:85px ;width:120px ;
 border: 1px solid;
 }
 .miisud{
-    font-family:fantasy
+    font-family:fantasy;
 }
 
 .annemariJaKerrtu_table{
