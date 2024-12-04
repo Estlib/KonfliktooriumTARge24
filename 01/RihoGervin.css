@@ -1,0 +1,15 @@
+.kuivadheinad {
+    body {
+        color: rgb(202, 47, 47);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a {
+        color: rgb(168, 56, 56);
+    }
+    
+    td {
+        background-color: rgb(161, 109, 109);
+        color: rgb(1, 7, 7);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
