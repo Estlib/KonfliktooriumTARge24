@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+    color: #ff6b6b;
+}
+.step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.step img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 2px solid #fcb69f;
+}
+.step-text {
+    flex: 1;
+}
+.step-text p {
+    margin: 0;
+}
+footer {
+    text-align: center;
+    margin: 20px 0;
+    color: #777;
+}
