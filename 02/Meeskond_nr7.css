@@ -1,0 +1,11 @@
+body {
+    background-color: #000000;
+    
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color:gold
+}
+
+.center {
+    text-align: center;
+  }
