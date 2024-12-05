@@ -49,8 +49,8 @@ h1 {
   table,
   th,
   td {
-    border: 1px solid;
-    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
     background-color: rgb(255, 103, 189);
     color: black;
   }
