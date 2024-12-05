@@ -45,16 +45,13 @@ border: 1px solid;
     }   
 }
 
-.annemariJaKerrtu_table{
-    display: grid;
+.annemariJaKerrtu{
+    table, th, td{
     border: 1px solid;
     width: 100%;
     background-color: rgb(255, 103, 189);
     color: black;
-}
-.annemariJaKerrtu_tbody{
-    border:1px solid #090909;
-    display: grid;
+    }
 }
 
 .ok_table{
