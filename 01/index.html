@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../mainstyle.css">
     <link rel="stylesheet" href="../mainstyle.css">
     <link rel="stylesheet" href="RihoGervin.css">
+    <link rel="stylesheet" href="RetenAnneli.css">
     <title>Ülesanne 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,10 +21,10 @@
 
         Selle jaoks uuri siit: <a href="https://www.w3schools.com/cssref/sel_class.php">w3schools class selector</a><br/>
         Kasuta järgnevat HMTL tabeli näidet, et teha oma meeskonna tabelike:
-        <table>
-            <thead>
-                <tr colspan="3">
-                    <td>MEESKONNA NIMI</td>
+        <table class="teamtable">
+            <thead class="teamtableFill">
+                <tr>
+                    <td style="text-align: center;"colspan="3">MEESKONNA NIMI</td>
                 </tr>
             </thead>
             <tbody>
@@ -137,42 +138,41 @@
     
 
     <p>
-    <table>
-        <thead>
-            <tr colspan="3">
-                <td >MEESKONNA NIMI: OK</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Meeskonnaliikmed:</td>
-                <td>Orvet</td>
-                <td>Ketter</td>
-            </tr>
-            <tr>
-                <td>Saidid:</td>
-                <td>A</td>
-                <td><a href="https://github.com/Ketter8/Ketter8-public/tree/master">Ketter Github</a></td>
-            </tr>
-            <tr>
-                <td>Lõputööde ideed:</td>
-                <td>A</td>
-                <td>B</td>
-            </tr>
-            <tr colspan="3">
-                <td><img src="OK_logo.jpg" alt=""></td> 
-            </tr>
-        </tbody>
-    </table>
+        <table class="ok_table">
+            <thead>
+                <tr >
+                    <td colspan="3" style="text-align: center;">Meeskond: OK</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Meeskonnaliikmed:</td>
+                    <td>Orvet</td>
+                    <td>Ketter</td>
+                </tr>
+                <tr>
+                    <td>Saidid:</td>
+                    <td><a href="https://github.com/corvert/TaapTARge24">Orvet GitHub</a></td>
+                    <td><a href="https://github.com/Ketter8/Ketter8-public/tree/master">Ketter Github</a></td>
+                </tr>
+                <tr>
+                    <td>Lõputööde ideed:</td>
+                    <td>Portfelli tracker</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td  colspan="3" style="text-align: center;"><img src="OK_logo.jpg" alt=""></td> 
+                </tr>
+            </tbody>
+        </table>
+    
     </p>
 
     <p>
-    <table class="annemariJaKerrtu_table">
+    <table class="annemariJaKerrtu">
         <thead>
-            <tr colspan="3">
-
-    
-                <td>AK-47</td>
+            <tr>
+                <td colspan="3" style="text-align: center;">AK-47</td>
             </tr>
         </thead>
         <tbody>
@@ -188,44 +188,44 @@
             </tr>
             <tr>
                 <td>Lõputööde ideed:</td>
-                <td>A</td>
+                <td>Veebilehe loomine</td>
                 <td>B</td>
             </tr>
-            <tr colspan="3">
-                <td><img src="pinkAK.jpg" width="250px"></td> 
+            <tr >
+                <td colspan="3" style="text-align: center;"><img src="pinkAK.jpg" width="250px"></td> 
             </tr>
         </tbody>
     </table>
     </p>
 
     <p>
-    <table class="miisud">
+        <table class="miisud">
         <thead>
-            <tr colspan="3">
-                <td>MEESKONNA NIMI: Miisud</td>
+            <tr >
+                <td colspan="3" style="text-align: center;">MEESKONNA NIMI: Miisud</td>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>Meeskonnaliikmed:</td>
-                <td>Anna Fomina</td>
-                <td>Freddie Turulinn</td>
-            </tr>
-            <tr>
-                <td>Saidid:</td>
-                <td><a href="https://github.com/fomi-ann">https://github.com/fomi-ann</a></td>
-                <td><a href="https://github.com/twaos">https://github.com/twaos</a></td>
-            </tr>
-            <tr>
-                <td>Lõputööde ideed:</td>
-                <td>Organisatsiooni haldustarkvara</td>
-                <td>B</td>
-            </tr>
-            <tr colspan="3">
-                <td><img src="https://pbs.twimg.com/media/ClbF_0AUkAEt6W8.jpg"></td> 
-            </tr>
-        </tbody>
-    </table>
+            <tbody>
+                <tr>
+                    <td>Meeskonnaliikmed:</td>
+                    <td>Anna Fomina</td>
+                    <td>Freddie Turulinn</td>
+                </tr>
+                <tr>
+                    <td>Saidid:</td>
+                    <td><a href="https://github.com/fomi-ann">https://github.com/fomi-ann</a></td>
+                    <td><a href="https://github.com/twaos">https://github.com/twaos</a></td>
+                </tr>
+                <tr>
+                    <td>Lõputööde ideed:</td>
+                    <td>Organisatsiooni haldustarkvara</td>
+                    <td>Luua AI</td>
+                </tr>
+                <tr>
+                    <td colspan="3"style="text-align: center;"><img src="https://pbs.twimg.com/media/ClbF_0AUkAEt6W8.jpg" width="300px" alt=""></td> 
+                </tr>
+            </tbody>
+        </table>
     </p>
 
     <p class="MarioJaKevinContainer">
@@ -257,6 +257,33 @@
             </tbody>
         </table>
     </p>
-    
+    <div class="RA">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="3">CSI: Cats</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Meeskonnaliikmed:</td>
+                    <td>Reten</td>
+                    <td>Anneli</td>
+                </tr>
+                <tr>
+                    <td>Saidid:</td>
+                    <td><a href="https://teraz6.github.io/RetenTARge24TAP/">Reten</a></td>
+                    <td><a href="https://annelisss.github.io/ARPkonspekt/">Anneli</a></td>
+                </tr>
+                <tr>
+                    <td>Lõputööde ideed:</td>
+                    <td colspan="2">Rakendus, mis aitab inimesi</td>
+                </tr>
+                <tr colspan="3"><img src="../pildid/RetenAnneli.jpg" width="150px" height="100px"></tr>
+            </tbody>
+        </table>
+        </div>
+
+        <a href="Meeskond_nr7.html"> Meeskond nr 7 </a>
 </body>
 </html>

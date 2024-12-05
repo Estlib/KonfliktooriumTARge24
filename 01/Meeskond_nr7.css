@@ -1,8 +1,9 @@
 body {
     background-color: #000000;
-    initial-letter: gold;
+    
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
+    color:gold
 }
 
 .center {
