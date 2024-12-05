@@ -1,63 +1,79 @@
 body {
-    background-color: rgb(52,52,52);
-    color:rgb(0, 179, 255);
-    font-family: "Comic Sans MS"; 
+  background-color: rgb(52, 52, 52);
+  color: rgb(0, 179, 255);
+  font-family: "Comic Sans MS";
 }
 a {
-    color: rgb(195, 255, 0);
+  color: rgb(195, 255, 0);
 }
 h1 {
-    background-color: inherit;
-    color: rgb(255,0,170);
-    font-family: "Comic Sans MS";
+  background-color: inherit;
+  color: rgb(255, 0, 170);
+  font-family: "Comic Sans MS";
 }
 .teamtable {
-    border: solid 10px white !important;
-
+  border: solid 10px white !important;
 }
-.teamtableFill
-{
-    background-color: rgb(0, 179, 255);
-    color: white;
+.teamtableFill {
+  background-color: rgb(0, 179, 255);
+  color: white;
 }
-.teamtablecolor2 {    
-    color: rgb(195, 255, 0);
+.teamtablecolor2 {
+  color: rgb(195, 255, 0);
 }
-.teamtablecolor3 {    
-    color: rgb(255,0,170);
+.teamtablecolor3 {
+  color: rgb(255, 0, 170);
 }
 
-.catPick{
-height:85px ;width:120px ;
+.catPick {
+  height: 85px;
+  width: 120px;
 }
-.MarioJaKevinTable{
-border: 1px solid;
+.MarioJaKevinTable {
+  border: 1px solid;
 }
 
 .miisud {
-    table, th, td {
-    font-family:fantasy;
+  table,
+  th,
+  td {
+    font-family: fantasy;
     border: 1px solid;
     padding: 10px;
     background-color: darkolivegreen;
-    color:rgb(177, 197, 177)
-    
-    }   
+    color: rgb(177, 197, 177);
+  }
 }
 
-.annemariJaKerrtu{
-    table, th, td{
+.annemariJaKerrtu {
+  table,
+  th,
+  td {
     border: 1px solid;
     width: 100%;
     background-color: rgb(255, 103, 189);
     color: black;
-    }
+  }
 }
 
-.ok_table{
-    table, th, td {
-        border: 1px solid;
-        background-color: rgb(0, 255, 34);
-        padding: 10px;
-      }
+.ok_table {
+  table,
+  th,
+  td {
+    border: 1px solid;
+    background-color: rgb(0, 255, 34);
+    padding: 10px;
+  }
+}
+
+.maciv6llid {
+  table,
+  th,
+  td {
+    border: 2px solid;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(226, 90, 22);
+    color: black;
+  }
 }
