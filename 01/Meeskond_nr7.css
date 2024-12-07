@@ -9,3 +9,21 @@ body {
 .center {
     text-align: center;
   }
+  a:link {
+    color: gold;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: gold;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
