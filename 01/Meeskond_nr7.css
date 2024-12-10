@@ -27,3 +27,28 @@ body {
     text-decoration: none;
   }
 
+  .row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; /* Ridade vaheline tühik */
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  img {
+      width: 200px;
+      height: auto;
+      margin-right: 10px;
+  }
+
+  .row.reverse img {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  p {
+      margin: 0;
+      font-size: 16px;
+  }
