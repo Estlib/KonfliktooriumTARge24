@@ -1,15 +1,15 @@
 body {
     background-color: #000000;
-    
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     color:gold
 }
 
-.center {
+/* .center {
     text-align: center;
   }
-  a:link {
+   a:link {
     color: gold;
     background-color: transparent;
     text-decoration: none;
@@ -25,27 +25,48 @@ body {
     color: gold;
     background-color: transparent;
     text-decoration: none;
-  }
+  } */
 
   .row {
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      margin-bottom: 20px; /* Ridade vaheline tühik */
+      margin-bottom: 50px; /* Lisab lõikude vahele ruumi */
+      padding: 20px
   }
 
-  .reverse {
-    flex-direction: row-reverse;
+  row.reverse {
+    flex-direction: row-reverse; /* pöörab elemendid vastupidiseks */
   }
   
-  img {
-      width: 200px;
-      height: auto;
-      margin-right: 10px;
+  .img {
+      width: 25%;
+      height: 25%; /* auto - proportsioonide hoidmine */ 
+      /* margin-right: 10px; */
+      border-radius: 10px;
   }
 
-  .row.reverse img {
+  .row.reverse .img {
     margin-left: 10px;
     margin-right: 0;
+  }
+
+  .text {
+    max-width: 70%; /* Et tekst jääks pildi kõrvale */
+  }
+
+   /* .section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.section-item {
+  margin: 5px 0;
+}
+*/
+  a:hover {
+    text-decoration: underline;
   }
 
   p {
