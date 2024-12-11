@@ -21,14 +21,52 @@
 	}
 
 	td {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		padding: 10px;
 	}
 
 	a{
 		color:#ffffff;
 		text-decoration: none;
+	}}
+
+.Anneli {
+	body {
+	  font-family: Arial, sans-serif;
+	  background-color: #f4f4f4;
+	  margin: 0;
+	  padding: 0;
 	}
-}
+	table {
+	  width: 80%;
+	  margin: 50px auto;
+	  border-collapse: collapse;
+	  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	  background-color: #fff;
+	}
+	th, td {
+	  padding: 15px;
+	  text-align: left;
+	  border-bottom: 1px solid #ddd;
+	}
+	th {
+	  background-color: #4CAF50;
+	  color: white;
+	  font-size: 1.1em;
+	}
+	tr:hover {
+	  background-color: #f1f1f1;
+	}
+	a {
+	  color: #4CAF50;
+	  text-decoration: none;
+	}
+	a:hover {
+	  text-decoration: underline;
+	}
+	td {
+	  font-size: 1.05em;
+  }}
 
 h1 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
